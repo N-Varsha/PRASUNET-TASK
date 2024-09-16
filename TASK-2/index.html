@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Stopwatch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Interactive Stopwatch</h1>
+        <p>Track time accurately and easily with our interactive stopwatch. Use it to measure intervals, track laps, or simply keep time. Enjoy the colorful and user-friendly design that makes timing tasks a breeze.</p>
+        
+        <div class="stopwatch">
+            <div id="display">
+                <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>:<span id="milliseconds">00</span>
+            </div>
+            <div class="controls">
+                <button id="start" class="control-btn">Start</button>
+                <button id="pause" class="control-btn">Pause</button>
+                <button id="reset" class="control-btn">Reset</button>
+                <button id="lap" class="control-btn">Lap</button>
+            </div>
+            <div id="laps">
+                <h3>Laps:</h3>
+                <ul id="lap-list"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
